@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header */
@@ -170,19 +170,19 @@ nav{
     width: 32%;
     display: flex;
     justify-content: center;
+    gap: 32px;
     color: rgb(171, 15, 171);
 }
 
 .shevron .shav{
-    width: 55px;
+    width: 44px;
     margin: 0px 10px 0px 10px;
-    padding: 15px;
-    border-radius: 50%;
     color: linear-gradient(rgba(207, 108, 9, 0.564),rgb(171, 15, 171));
     text-align: center;
     border: 1px solid white;
     transition-duration: .5s;
     cursor: pointer;
+    font-size: 32px;
 }
 
 .shevron .shav:hover{
