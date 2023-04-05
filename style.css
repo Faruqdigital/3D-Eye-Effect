@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header{
+    background-color: black;
+    background-image: url(images/Background.gif);
+    padding: 0px 20px 0px 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 47%;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* navigation */
+nav{
+    display: flex;
+    padding: 25px 60px 0px 60px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    height: 40px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo h3{
+    margin-top: 5px;
+}
+
+.logo h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-menu ul{
+    padding-top: 15px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.nav-menu ul li{
+    padding-right: 50px;
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav-menu ul li a:hover{
+    color: rgb(171, 15, 171);
+}
+
+.nav-menu ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(207, 108, 9,0.564);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom:-5px;
+    transition-duration: 0.5s;
+}
+
+.nav-menu ul li a:hover::after{
+    width: 100%;
+}
+
+.btn{
+    padding-top: 7px;
+}
+
+.btn button{
+    padding: 7px 20px 7px 20px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(207, 108, 9, 0.564),rgb(171, 15, 171));
+    transition-duration: .5s;
+    border: none;
+    box-shadow: 2px 2px 2px #ffffff1d;
+}
+
+.btn button a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn button:hover{
+    background-color: aquamarine;
+}
+
+/* hero */
+.header-text{
+    color: white;
+    width: fit-content;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    line-height: 60px;
+    letter-spacing: 8px;
+}
+
+.header-text h2{
+    font-size: 70px;
+}
+.header-text p{
+    font-size: 30px;
+}
+
+.header-text h4{
+    font-size: 70px;
+    font-family: arial;
+}
+
+.btn2{
+    padding-top: 10px;
+}
+
+.btn2 button{
+    padding: 8px 60px 8px 60px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(207, 108, 9, 0.564),rgb(171, 15, 171));
+}
+
+.btn2 button a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn2 button:hover{
+    background-color: aquamarine;
+}
+
+/* icon link */
+.header-bottom{
+    color: white;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 32%;
+}
+
+.copyright{
+    width: 32%;
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.copyright b{
+    color: rgba(207, 108, 9, 0.564);
+}
+
+.shevron{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    color: rgb(171, 15, 171);
+}
+
+.shevron .shav{
+    width: 55px;
+    margin: 0px 10px 0px 10px;
+    padding: 15px;
+    border-radius: 50%;
+    color: linear-gradient(rgba(207, 108, 9, 0.564),rgb(171, 15, 171));
+    text-align: center;
+    border: 1px solid white;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.shevron .shav:hover{
+    transform: translate(0px, -10px);
+}
+
+.social-col{
+    width: 36%;
+    margin-top: 5px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.social-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background:  linear-gradient(rgba(207, 108, 9, 0.564),rgb(171, 15, 171));
+    margin: 0 10px 0px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition:all 0.5s ease;
+}
+
+.social-col .social-links a:hover{
+    color: #ffff;
+    background-color: aquamarine;
+    transform: translate(0px,-10px);
+}
+
